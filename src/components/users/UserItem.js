@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import GithubContext from "../../context/github/githubContext";
 
 const UserItem = ({ user: { login, avatar_url, html_url } }) => {
   return (
